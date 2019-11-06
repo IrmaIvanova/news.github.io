@@ -67,8 +67,33 @@
 }
 @media(max-width: 1400px) {
     header .header-side ul li.switcher {
-        display: none;
+        left: 5px;
+        width: 61px;
+        margin: 12px 0;
+        border: 1px solid #909090;
     }
+    header .header-side ul li.switcher a.on {
+        background: #48B7FD 0% 0% no-repeat padding-box;
+        opacity: 1;
+		left: -10px;
+		top: -11px;
+		right: 4px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        /* width: 73px; */
+        position: relative;
+        width: 60px;
+		height: 26px;
+		text-align: center;
+	}
+	header .header-side ul li.switcher a {
+		width: auto;
+		height: 27px;
+		/* padding-top: 8px; */
+		position: absolute;
+		top: 26px;
+		left: 5px;
+	}
     .page.pg3,
 	.page {
 	    padding-top: 74px;
@@ -315,8 +340,8 @@
 		width: 50%;
 	}
 	.md-clmn {
-			width: 45%;
-		}
+		width: 35%;
+	}
 	.md-clmn-2 {
 		width: 50%;
 	}
@@ -338,12 +363,18 @@
 		position: absolute;
 		bottom: 8px;
 		left: 10%;
-		left: 361px;
+		left: 410px;
 		color: #fff;
 	}
-
 	footer .inner-box {
 		width: 25%;
+	}
+	.sctn-main .block.Vblock.style_new .flex {
+		position: absolute;
+		top: 69px;
+		width: 96%;
+		display: flex;
+		justify-content: space-between;
 	}
 }
 @media(max-width: 1000px) {
@@ -363,10 +394,11 @@
 
 	}
 
-	.sctn-main .home-slider .slide .clmn_2{
-		width: 34%;
-		top: -16px;
-		left: 300px;
+
+	.sctn-main .home-slider .slide .clmn_2 {
+		width: 32%;
+		top: 2px;
+		left: 64%;
 	}
 	.sctn-main .block .inner-block {
 		max-width: inherit;
@@ -395,15 +427,21 @@
 	}
 
 	.sctn-main .block.Vblock.style_new .inner-block {
-		height: 300px;
-		top: 80px;
+		height: 126px;
+		top: 263px;
 		position: relative;
+	}
+	.sctn-main .ln-block.lnb2.style_new2 .ln-txt h2 {
+		position: absolute;
+		bottom: 8px;
+		left: 105%;
+		color: #fff;
 	}
 
 	.sctn-main .block.Vblock.style_new .flex {
 		position: absolute;
-		top: 68px;
-		width: 100%;
+		top: -56px;
+		width: 97%;
 	}
 
 
@@ -438,6 +476,7 @@
 	}
 }
 @media(max-width: 768px) {
+
 	.sctn-1 .date {
 		width: 100px;
 		text-align: right;
@@ -523,6 +562,12 @@
 		position: relative;
 		bottom: 20px;
 	}
+
+	.sctn-main .block.Vblock.style_new .inner-block {
+		height: 126px;
+		top: -12px;
+		position: relative;
+	}
 	.sctn-main .block.txt-b .inner-block {
 		padding: 10px;
 	}
@@ -532,6 +577,9 @@
 	}
 	.sctn-main .home-slider .slide .block.hfix {
 		padding-top: 0;
+	}
+	.sctn-main .home-slider .slide .block.hfix img {
+		background-size: 179%!important;
 	}
 	.sctn-main .home-slider .slide .block.hfix img {
 		margin-top: -30px;
