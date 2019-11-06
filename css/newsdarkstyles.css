@@ -851,7 +851,7 @@ header .header-side .kab .kab-inner-box a:hover b {
 	min-width: 90%;
 }
 .sctn-main .block.box:hover {
-	background: #48B7FD;
+	background: #333232;
 }
 .sctn-main .block .img {
 	position: absolute;
@@ -869,7 +869,7 @@ header .header-side .kab .kab-inner-box a:hover b {
 .sctn-main .block.Vblock .img {
 	right: 0;
 }
-.sctn-main .block .img:before {
+.sctn-main .block:hover .img:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -877,20 +877,20 @@ header .header-side .kab .kab-inner-box a:hover b {
 	right: 0;
 	bottom: 0;
 	opacity: 0.7;
-	/* background: -webkit-linear-gradient(left, #FFFFFF00, #1E8FD5);
-	background: -moz-linear-gradient(left, #FFFFFF00, #1E8FD5);
-	background: linear-gradient(to right, #FFFFFF00, #1E8FD5); */
+	background: -webkit-linear-gradient(left, #FFFFFF00, rgba(30, 143, 213, 0.226));
+	background: -moz-linear-gradient(left, #FFFFFF00, rgba(30, 143, 213, 0.226));
+	background: linear-gradient(to right, #FFFFFF00, rgba(30, 143, 213, 0.226));
 	transition: 0.15s;
 	-webkit-transition: 0.15s;
 	-moz-transition: 0.15s;
 	-ms-transition: 0.15s;
 	-o-transition: 0.15s;
 }
-.sctn-main .block.Vblock .img:before {
+.sctn-main .block.Vblock:hover .img:before {
 	opacity: 1;
-	/* background: -webkit-linear-gradient(top, #FFFFFF00, #1E8FD5);
-	background: -moz-linear-gradient(top, #FFFFFF00, #1E8FD5);
-	background: linear-gradient(to bottom, #FFFFFF00, #1E8FD5); */
+	background: -webkit-linear-gradient(top, #FFFFFF00, rgba(30, 143, 213, 0.226));
+	background: -moz-linear-gradient(top, #FFFFFF00, rgba(30, 143, 213, 0.226));
+	background: linear-gradient(to bottom, #FFFFFF00, rgba(30, 143, 213, 0.226));
 }
 .sctn-main .block .img:after {
 	content: "";
