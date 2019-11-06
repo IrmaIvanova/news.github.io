@@ -315,8 +315,8 @@
 		width: 50%;
 	}
 	.md-clmn {
-		width: 100%;
-	}
+			width: 45%;
+		}
 	.md-clmn-2 {
 		width: 50%;
 	}
@@ -338,10 +338,10 @@
 		position: absolute;
 		bottom: 8px;
 		left: 10%;
-		left: 276px;
+		left: 361px;
 		color: #fff;
 	}
-	
+
 	footer .inner-box {
 		width: 25%;
 	}
@@ -395,15 +395,18 @@
 	}
 
 	.sctn-main .block.Vblock.style_new .inner-block {
-		height: 180px;
+		height: 300px;
+		top: 80px;
 		position: relative;
 	}
+
 	.sctn-main .block.Vblock.style_new .flex {
 		position: absolute;
-		top: -24px;
+		top: 68px;
 		width: 100%;
-
 	}
+
+
 	.sctn-main .home-slider .slide .overblock .marks {
 		position: relative;
 		padding: 5px 25px;
@@ -426,6 +429,12 @@
 	}
 	.sctn-fix .flex {
 		display: block;
+	}
+	.clmn_3.some_theme {
+		width: 50%;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
 	}
 }
 @media(max-width: 768px) {
