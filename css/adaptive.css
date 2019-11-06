@@ -1,4 +1,23 @@
 @media(max-width: 1520px) {
+	header .header-side ul li.switcher {
+        left: 5px;
+        width: 61px;
+        margin: 12px 0;
+        border: 1px solid #909090;
+    }
+    header .header-side ul li.switcher a.on {
+        background: #48B7FD 0% 0% no-repeat padding-box;
+        opacity: 1;
+        left: -1px;
+        top: 0px;
+        right: 4px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        /* width: 73px; */
+        position: relative;
+        width: 60px;
+        height: 26px;
+    }
 	.content {
 		padding: 0 10px;
 	}
@@ -47,6 +66,9 @@
 	}
 }
 @media(max-width: 1400px) {
+	header .header-side ul li.switcher {
+        display: none;
+    }
 	.page.pg3,
 	.page {
 	    padding-top: 74px;
