@@ -772,6 +772,7 @@ header .header-side .kab .kab-inner-box a:hover b {
 .sctn-main .ln-block .ln-title .ln-title-txt b {
 	color: #fff;
 }
+
 .sctn-main .ln-block .ln-box {
 	height: 127px;
 }
@@ -822,9 +823,12 @@ header .header-side .kab .kab-inner-box a:hover b {
     width: auto;
 }
 .sctn-main .title a:hover {
+	color: #333232;
 	background: #fff;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.16);
 }
+
+
 .sctn-main .block {
 	display: block;
 	position: relative;

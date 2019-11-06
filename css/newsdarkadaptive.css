@@ -333,6 +333,15 @@
 	.sctn-main .ln-block .ln-box h2 {
     	line-height: 24px;
 	}
+
+	.sctn-main .ln-block.lnb2.style_new2 .ln-txt h2 {
+		position: absolute;
+		bottom: 8px;
+		left: 10%;
+		left: 276px;
+		color: #fff;
+	}
+	
 	footer .inner-box {
 		width: 25%;
 	}
@@ -350,7 +359,14 @@
 	.clmn_2,
 	.clmn_4,
 	.md-clmn-2 {
-		width: 100%;
+		width: 50%;
+
+	}
+
+	.sctn-main .home-slider .slide .clmn_2{
+		width: 34%;
+		top: -16px;
+		left: 300px;
 	}
 	.sctn-main .block .inner-block {
 		max-width: inherit;
@@ -376,6 +392,17 @@
 		left: 0;
 		right: 0;
 		padding: 10px 0;
+	}
+
+	.sctn-main .block.Vblock.style_new .inner-block {
+		height: 180px;
+		position: relative;
+	}
+	.sctn-main .block.Vblock.style_new .flex {
+		position: absolute;
+		top: -24px;
+		width: 100%;
+
 	}
 	.sctn-main .home-slider .slide .overblock .marks {
 		position: relative;
@@ -464,6 +491,17 @@
 	.clmn_3 {
 		width: 100%;
 	}
+
+	.clmn_3.some_theme {
+		width: 50%;
+
+	}
+	.clmn_1.some_theme {
+		width: 100%;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+	}
 	.sctn-main .block.box h2 {
     	padding-bottom: 10px;
 	}
@@ -474,6 +512,7 @@
 	.sctn-main .block.Vblock .inner-block,
 	.sctn-main .block .inner-block {
 		position: relative;
+		bottom: 20px;
 	}
 	.sctn-main .block.txt-b .inner-block {
 		padding: 10px;
@@ -524,7 +563,7 @@
 		padding-top: 0;
 	}
 	.sctn-main .title a {
-	    background: #fff;
+	    background: #1E8FD5;
 	    box-shadow: 1px 1px 3px rgba(0,0,0,0.16);
 	}
 	.sctn h1 {
