@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.125" height="21.767" viewBox="0 0 13.125 21.767">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="13.125" height="21.767" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon-2" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Path_122" data-name="Path 122" d="M24.625,28v2.225a5.562,5.562,0,0,1-11.125,0V28" transform="translate(-12.5 -17.617)" fill="none" stroke="#c1c1c1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_123" data-name="Path 123" d="M22.208,16.317h0A3.719,3.719,0,0,1,18.5,12.608v-8.9A3.719,3.719,0,0,1,22.208,0h0a3.719,3.719,0,0,1,3.708,3.708v8.9A3.719,3.719,0,0,1,22.208,16.317Z" transform="translate(-15.646)" fill="#48b7fd"/>
+    <line id="Line_1" data-name="Line 1" y2="2.596" transform="translate(6.563 18.171)" fill="none" stroke="#c1c1c1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_124" data-name="Path 124" d="M26.95,56H22.5" transform="translate(-18.163 -35.233)" fill="none" stroke="#c1c1c1" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Path_125" data-name="Path 125" d="M32.208,12.608v-8.9A3.719,3.719,0,0,0,28.5,0V16.317A3.719,3.719,0,0,0,32.208,12.608Z" transform="translate(-21.938)" fill="#48b7fd"/>
+  </g>
+</svg>
