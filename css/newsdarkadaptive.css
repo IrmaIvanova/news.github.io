@@ -900,4 +900,11 @@
 			width: 268px;
 			height: 400px;
 		}
+		header .header-side ul li.switcher {
+			top: 7px;
+			left: 75%;
+			width: 61px;
+			margin: 12px 0;
+			border: 1px solid #909090;
+		}
 	}
