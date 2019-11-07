@@ -218,7 +218,8 @@ header .header-side ul li.switcher a{
 }
 header .header-side ul li.switcher a.on{
     background: #48B7FD 0% 0% no-repeat padding-box;
-    opacity: 1;
+	color: #fff;
+	opacity: 1;
     left: -1px;
     top: 0px;
     right: 4px;

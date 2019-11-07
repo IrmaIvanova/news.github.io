@@ -815,7 +815,6 @@
 	}
 }
 @media (max-width: 398px) {
-
 	.sctn-main .home-slider .slide .block .inner-block {
     position: relative;
     top: 29vh;
@@ -860,5 +859,16 @@
 	}
 	.clmn_3.some_theme {
 		width: 100%;
+	}
+}
+
+	@media (max-width: 320px){ 
+	.sctn-main .home-slider .slide .block .inner-block {
+		position: relative;
+	    top: 47vh;
+	    left: -27vh;
+	    width: 268px;
+	    height: 400px;
+}
 	}
 }
