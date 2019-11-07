@@ -839,6 +839,15 @@
 		left: 64%;
 	}
 }	
+@media (max-width: 360px){ 
+.sctn-main .home-slider .slide .block .inner-block {
+    position: relative;
+    top: 29vh;
+    left: -27vh;
+    width: 300px;
+    height: 400px;
+	}
+}
 @media (max-width: 350px) {
 	header .header-block:after {
 		display: none;
