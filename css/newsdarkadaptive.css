@@ -68,10 +68,12 @@
 @media(max-width: 1400px) {
 	header .header-side ul li.switcher {
 		top: 7px;
-		left: 94%;
+		left: 92.5%;
 		width: 61px;
 		margin: 12px 0;
 		border: 1px solid #909090;
+		position: absolute;
+		z-index: 1;
 	}
     header .header-side ul li.switcher a.on {
         background: #48B7FD 0% 0% no-repeat padding-box;
@@ -492,10 +494,12 @@
 	}
 	header .header-side ul li.switcher {
 		top: 7px;
-		left: 91%;
+		left: 89%;
 		width: 61px;
 		margin: 12px 0;
 		border: 1px solid #909090;
+		position: absolute;
+		z-index:1;
 	}
 
 	.sctn-1 .date {
@@ -794,7 +798,7 @@
 	}
 	header .header-side ul li.switcher {
 		top: 7px;
-		left: 83%;
+		left: 81%;
 		width: 61px;
 		margin: 12px 0;
 		border: 1px solid #909090;
@@ -838,6 +842,13 @@
 		top: -56px;
 		left: 64%;
 	}
+	header .header-side ul li.switcher {
+		top: 7px;
+		left: 78%;
+		width: 61px;
+		margin: 12px 0;
+		border: 1px solid #909090;
+}
 }	
 @media (max-width: 360px){ 
 	.sctn-main .home-slider .slide .block .inner-block {
