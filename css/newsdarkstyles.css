@@ -236,17 +236,23 @@ header .header-side ul li.switcher{
     text-align: center;
     font-size: 11px;
 }
-header .header-side ul li.switcher a.on{
+header .header-side ul li.switcher .on{
     width: auto;
     height:auto;
 	padding: 8px;
-	border-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	transition: opacity 1s;
 }
-header .header-side ul li.switcher a.on.active{
+header .header-side ul li.switcher .on.active{
 	background: #48B7FD ;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	transition: opacity 1s;
 }
+
 header .header-side ul li.switcher a.on.active:hover{
 	background: rgba(72, 184, 253, 0.568) 0% 0% no-repeat padding-box;
 	color: #fff;
@@ -258,7 +264,8 @@ header .header-side ul li.switcher a:hover {
     top: 0px;
 	right: 4px;
 	padding: 8px;
-	border-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
     /* width: 73px; */
     position: relative;
     width: auto;
